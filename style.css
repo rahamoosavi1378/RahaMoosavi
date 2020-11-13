@@ -1,0 +1,133 @@
+/* start: import fontS */
+@font-face {
+    font-family: "ComicJensFreePro-Regular";
+    src: url("fonts/ComicJensFreePro-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Borg9";
+    src: url("fonts/Borg 9.otf");
+}
+/* end: important font icons */
+
+/* start: reset style */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* end: reset style */
+
+/* start: style global */
+html, body {
+    font-family: "ComicJensFreePro-Regular",sans-serif;
+}
+
+/* end: style global */
+/* start: background */
+body:after {
+    background-color: #1e1f23;
+    content: '';
+    background-image: url("img/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* end: background */
+/* start: logo */
+.logo {
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    color: rgba(255, 255, 255, 0.65);;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Borg9',sans-serif;
+    line-height: 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo > p {
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 12px;
+}
+
+/* end: logo */
+
+/* start: social network */
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#bottom {
+    margin-bottom: 10px;
+}
+
+#bottom .social_network {
+    margin-bottom: 30px;
+}
+#bottom .social_network a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#bottom .social_network a span.label {
+    display: none;
+}
+#bottom .social_network li {
+    padding: 0 10px;
+}
+#bottom .social_network .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.8rem;
+}
+
+#bottom .copyright {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+#bottom .copyright a {
+    text-decoration: none;
+    color: royalblue;
+}
+/* end: social network */
+
+
+
+
+
+
+
+
+
+
+
+

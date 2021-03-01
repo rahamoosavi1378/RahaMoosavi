@@ -56,7 +56,7 @@ body:after {
     font-size: 4rem;
     font-weight: 600;
     font-family: 'Borg9',sans-serif;
-    line-height: 0;
+    // line-height: 0;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
